@@ -1,0 +1,26 @@
+{
+  "name": "focuslog",
+  "version": "0.1.0",
+  "description": "A terminal Pomodoro timer that logs sessions and draws a contribution-style heatmap",
+  "type": "module",
+  "bin": {
+    "focuslog": "src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "pomodoro",
+    "cli",
+    "terminal",
+    "heatmap",
+    "productivity"
+  ],
+  "license": "MIT",
+  "files": [
+    "src"
+  ]
+}
